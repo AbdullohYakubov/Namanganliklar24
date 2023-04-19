@@ -1,0 +1,151 @@
+.header{
+    background-color: #F6F6F9;    
+}
+
+.top-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+
+.logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #295091;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.top-left-navbar{
+    margin-right: auto;
+    color: #7A7A7A;
+}
+
+.top-left-navbar span{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.top-left-navbar span::after{
+    content: "$";
+    position: absolute;
+    left: -15px;
+    font-weight: 700;
+    color: #285193;
+}
+
+.top-left-navbar span:nth-child(2)::after{
+    content: "P";
+}
+
+.top-left-navbar span:nth-child(3)::after{
+    content: "E";
+}
+
+.top-right-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 7px;
+}
+
+.russian-lang{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.russian-lang > svg{
+    border-radius: 50%;
+}
+
+.russian-lang > p{
+    margin-left: 5px;
+    color: #535353;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.subscribe-btn{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.subscribe-btn:hover, .subscribe-btn:active{
+    background: linear-gradient(90deg, #37AEE2 15.07%, #285193 85.96%);
+}
+
+.subscribe-btn:hover .pop-up-section{
+    display: flex;  
+}
+
+.subscribe-btn > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 7px;
+}
+
+.navbar{
+    margin-top: 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+    transition: 0.1s ease-in-out;
+}
+
+.nav-link:hover{
+    color: #295091;
+    border-radius: 5px;
+}
+
+.nav-link:active{
+    opacity: 0.7;
+}
+
+.bottom-nav{
+    width: 100%;
+    margin: 20px 0px;
+}

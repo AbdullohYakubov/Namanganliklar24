@@ -1,0 +1,464 @@
+/* styles for covid section */
+
+.covid-info{
+    display: flex;
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.corona-virus{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.corona-virus > h4{
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.corona-virus-info{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.corona-virus-details{
+    display: flex;
+    align-items: center;
+    border-left: 2px solid #F4CCD1;
+    padding-left: 20px; 
+}
+
+.corona-virus-details:nth-child(1){
+    border-left: 2px solid #DB0000;
+}
+
+.corona-virus-details > div{
+    margin-left: 20px;
+}
+
+.corona-virus-details > div > p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.infected{
+    color: #DB0000;
+}
+
+.recovered{
+    color: #05B135;
+}
+
+/* styles for top-news section */
+
+.top-news{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.news{
+    width: 30%;
+    justify-content: center;
+}
+
+.news > a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.news > a:hover{
+    text-decoration: underline;
+}
+
+.news > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+    margin-top: 10px;
+} 
+
+/* styles for notification section */
+
+.turn-on-notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 40px 0px;
+}
+
+.turn-on-notification > h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.turn-on-notification > p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* styles for latest news section */
+
+.news-content{
+    display: flex;
+    margin-top: 20px;
+}
+
+.latest-news-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.latest-news{
+    margin-right: 20px;
+    padding-right: 20px;
+    width: 70%;
+}
+
+.news-card{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.news-details{
+    margin-left: 20px;
+}
+
+.news-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.news-title:hover{
+    text-decoration: underline;
+}
+
+.news-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin-bottom: 10px;
+}
+
+.news-date{
+    display: flex;
+    align-items: center;
+}
+
+.news-date > p{
+    margin-left: 3px;
+}
+
+/* styles for sidebar section */
+
+.sidebar{
+    width: 30%;
+}
+
+.main-content-sidebar{
+    padding: 16px 20px;
+ }
+
+.main-content-sidebar > h4{
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+}
+
+.sidebar-content{
+    border-bottom: 5px solid #E4E4E4;
+    margin-bottom: 20px;
+ }
+
+.sidebar-content > div{
+    margin-bottom: 20px;
+ }
+
+.sidebar-img{
+    margin-top: 20px;
+ }
+
+/* styles for subscribe for more button */
+
+.subscribe-for-more{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.more-news{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #295093;
+    border-radius: 5px;
+    padding: 10px 32px;
+    margin: 5px 0px;
+    transition: 0.2s ease-in-out;
+}
+
+.more-news:hover, .more-news:active{
+    opacity: 0.9;
+}
+
+/* styles for advertisement section */
+
+.advertisement{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 40px 0px;
+}
+
+.ad-photo{
+    position: relative;
+    top: 23px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/phone.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 230px;
+    height: 180px;
+}
+
+.ad-desc{
+   width: 52%;
+}
+
+.ad-desc > h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #295093;
+    margin-bottom: 10px;
+}
+
+.ad-desc > p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.platfroms{
+    display: flex;
+}
+
+.platfroms > img{
+    margin-left: 20px;
+}
+
+/* styles for Article page begins */
+
+.president-photo{
+    background-image: url(../images/mirziyoyev.jpg);
+    width: 100%;
+    height: 379px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-wrapper{
+    margin-top: 35px;
+}
+
+.article-wrapper > p{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 25px;
+    text-align: justify;
+} 
+
+.article-wrapper > p:nth-child(1), .article-wrapper > p:nth-child(4){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.article-wrapper > p:nth-child(4){
+    font-style: italic;
+}
+
+.article-wrapper > p > span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+    margin-right: 10px;
+}
+
+.article-wrapper > p:nth-child(9){
+    border-bottom: 3px solid #EBEBEB;
+    padding-bottom: 20px;
+}
+
+/* styles for Contact page begins */
+
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-section{
+    width: 46%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.controls{
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.controls input{
+    width: 221px;
+    height: 50px;
+}
+
+.controls span{
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.contact-details{
+    width: 46%;
+    height: 290px;
+    background: #FFFFFF;
+    border: 2px solid #BCC3CD;
+    border-radius: 5px;
+    box-shadow: -15px 15px 3px 2px rgba(57, 57, 57, 0.25);
+    border-radius: 5px;
+}  
+
+.logo-on-contact-card{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #295091;
+    margin-left: 260px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.info-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    margin-left: 25px;
+}
+
+.contact, .email{
+    margin-right: 25px;
+}
+
+.email{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+}
+
+.subscribe-btn-on-contact-card{
+    display: flex;
+    align-items: center;
+    background: #295091;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+.subscribe-btn-on-contact-card > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.header-search-input{
+    margin: 0px 20px;
+    border: none;
+    height: 40px;
+}
+
+.header-search-input::placeholder{
+    font-size: 12px
+}
+
+/* styles for Modal page begins */
